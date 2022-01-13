@@ -1,0 +1,50 @@
+.main {
+  width: 55%;
+  margin: 0 auto;
+  border: #d2cecb 1px solid;
+  box-shadow: inset 1px 1px 6px 0px;
+
+}
+.recent-city {
+width: 60%;
+padding: 20px;
+}
+.today-temp,
+.today-details{
+    border-left: 1px solid #007c7d63;
+  border-bottom: 1px solid #007c7d5e;
+border-radius: 60px;
+margin: 30px 10px;
+text-align: center;
+
+}
+.days {
+  border-left: #007cff4f solid 2px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 12px;
+  line-height: 80%;
+}
+.today-weather{
+width: 60%;
+
+}
+.current-btn{
+    margin-left: 15px;
+
+}
+p{
+text-align: center;
+    font-weight: bold;
+      
+  padding-top: 10px;
+}  
+.fas{
+color:#7c7ddf;
+text-align: center;
+font-size: 28px;
+}
+.search-box{
+    padding-left: 15px;
+}

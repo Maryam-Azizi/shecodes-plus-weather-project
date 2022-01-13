@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>week 5 shecodes plus</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="recent-city">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">Tehran</div>
+            <div class="col-sm">Mashad</div>
+            <div class="col-sm">Shiraz</div>
+            <div class="col-sm">Esfehan</div>
+          </div>
+        </div>
+      </div>
+      <div class="search-box">
+        <div>
+          <div class="input-group">
+         
+            <form id="search-form">
+              <input type="text" id="search-input" autocomplete="off" autofocus="on" placeholder="Enter a city">
+              <input type="submit" value="search">
+            </form>
+           
+            <button class="btn btn-info current-btn"> current </button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+  <div class="row today-weather">
+   
+    <div class="col today-temp">
+       <h3 class="city"></h3>
+     <span class="time"></span> 
+    
+     <p class= "tempt"></p> 
+    </div>
+    <div class="col today-details">
+      <p class="humid"></p>
+    
+      <p> </p>
+    </div>
+  </div>
+  
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-2 days">
+      <p>Sunday</p>
+      <i class='fas fa-bolt'></i>
+      <p>10° </p>
+    </div>
+    <div class="col-sm-2 days">
+    <p>Monday</p> 
+     <i class='	fas fa-cloud-moon-rain'></i>
+     <p>12° </p>
+    </div>
+    <div class="col-sm-2 days">
+     <p> Tuesday</p>
+       <i class='	fas fa-snowflake'></i>
+      <p>12° </p>
+      </div>
+    <div class="col-sm-2 days">
+      <p>Wednesday</p>
+      <i class='	fas fa-snowflake'></i>
+       <p>11° </p>
+    </div>
+    <div class="col-sm-2 days">
+     <p> Thursday</p>
+     <i class='	fas fa-snowflake'></i>
+       <p>-10° </p>
+    </div>
+    <div class="col-sm-2 days">
+      <p>Friday</p>
+      <i class='fas fa-cloud-sun'></i>
+       <p>12° </p>
+    </div>
+  </div>
+    </div>
+  
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   <script src="src/index.js"></script>
+  </body>
+</html>
