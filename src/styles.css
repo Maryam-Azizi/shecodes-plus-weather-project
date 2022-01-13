@@ -48,3 +48,11 @@ font-size: 28px;
 .search-box{
     padding-left: 15px;
 }
+h2{
+  text-align: center;
+  margin-top: 20px;
+}
+.search-input{
+background: #2189cf;
+    padding: 15px;
+}   
